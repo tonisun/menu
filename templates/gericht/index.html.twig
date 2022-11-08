@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello GerichtController!{% endblock %}
+
+{% block body %}
+
+<!-- Flash Message -->
+{% for message in app.flashes('Erfolg') %}
+    <div class="alert alert-success">
+        <h4>{{ message }}</h4>
+    </div>
+{% endfor %}
+
+<br>
+<div class="container">
+<h2>Gerichte bearbeiten</h2>
+<br>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Bestell Nr.</th>
+            <th>Kategorie<th>
+            <th>Name</th>
+            <th>Beschreibung</th>
+            <th>Preis</th>
+            <th>Ändern</th>
+            <th>Löschen</th>
+            <th><a href="{{ path('gericht.create') }}">Anlegen</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for gericht in allegerichte %}
+            <tr>
+                <td>{{gericht.id}}</td>
+                <td>{{gericht.kategorie}}</td>
+                <td><a href="{{ path('gericht.anzeigen', {id: gericht.id }) }}">{{gericht.name}}</a></td>
+                <td>{{gericht.beschreibung}}</td>
+                <td>{{gericht.preis}}</td>
+                <td>UPD</td>
+                <td><a href="{{ path('gericht.delete', {id: gericht.id }) }}">DEL</a></td>
+                <td></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+{% endblock %}

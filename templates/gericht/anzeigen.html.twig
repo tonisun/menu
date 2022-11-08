@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello GerichtController!{% endblock %}
+
+{% block body %}
+
+<!-- Flash Message -->
+{% for message in app.flashes('Erfolg') %}
+    <div class="alert alert-success">
+        <h4>{{ message }}</h4>
+    </div>
+{% endfor %}
+
+<br>
+<div class="container">
+    <h2>{{ gericht.name }}</h2>
+    <img src="{{ asset('uploads/'~gericht.bild ) }}" alt="">
+    <p>{{gericht.beschreibung}}</p>
+    <p><b>Preis: {{gericht.preis}}</b></p>
+</div>
+{% endblock %}

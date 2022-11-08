@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Menu{% endblock %}
+
+{% block body %}
+    <!-- Hero section -->
+	<section class="hero-section">
+		<div class="hero-slider owl-carousel">
+
+            <div class="hs-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hs-text">
+								<h2><span>{{gericht1.name}}</span></h2>
+								<p>Probieren Sie jetzt, {{gericht1.beschreibung}} <br>für nur {{gericht1.preis}} € !
+								<br>Exlusiv als Gericht des Tages.</p>
+								<a href="{{ path('menu') }}" class="site-btn">Menükarte</a>
+								<a href="{{ path('bestellen', { id: gericht1.id }) }}" class="site-btn sb-c2">bestellen</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="hr-img">
+								<img src="{{ asset('uploads/' ~ gericht1.bild) }}" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+			<div class="hs-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hs-text">
+								<h2><span>{{gericht2.name}}</span></h2>
+								<p>Probieren Sie jetzt, {{gericht2.beschreibung}} <br>für nur {{gericht2.preis}} € !
+								<br>Exlusiv als Gericht des Tages.</p>
+								<a href="{{ path('menu') }}" class="site-btn">Menükarte</a>
+								<a href="{{ path('bestellen', { id: gericht2.id }) }}" class="site-btn sb-c2">bestellen</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="hr-img">
+								<img src="{{ asset('uploads/' ~ gericht2.bild) }}" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hs-text">
+								<h2><span>{{gericht3.name}}</span></h2>
+								<p>Probieren Sie jetzt, {{gericht3.beschreibung}} <br>für nur {{gericht3.preis}} € !
+								<br>Exlusiv als Gericht des Tages.</p>
+								<a href="{{ path('menu') }}" class="site-btn">Menükarte</a>
+								<a href="{{ path('bestellen', { id: gericht3.id }) }}" class="site-btn sb-c2">bestellen</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="hr-img">
+								<img src="{{ asset('uploads/' ~ gericht3.bild) }}" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end -->
+{% endblock %}
