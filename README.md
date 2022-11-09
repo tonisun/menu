@@ -8,6 +8,9 @@ is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/sym
 
 ### -1. Entity-Relationship-Diagram - ```ERD```
 
+![Menu ERD](out\public\doc\ERD\ERD.svg)
+
+
 ### 0. Clairvoyance about the Project ```Menu-Mudra```
 
 * Each table has a chip programmed to say "I am table number xxx".

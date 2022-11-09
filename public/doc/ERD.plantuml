@@ -1,0 +1,49 @@
+@startuml
+' hide the spot
+hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+' !theme _none_
+!theme plain
+
+entity "user" as eU {
+  *user_id : number <<generated>>
+  --
+  username : text
+  roles : array
+  password: md5(text)
+}
+
+entity "bestellung" as eB {
+  *bestellung_id: number <<generated>>
+  --
+  *user_id : number <<FK>>
+  tisch : text
+  bestell_nummer : text
+  name : text
+  preis : decimal(11,2)
+  status : text
+}
+
+entity "kategorie" as eK {
+  *kategorie_id : number <<generated>>
+  --
+  *gericht_id : array(<number>) <<FK>>
+  other_details : text
+}
+
+entity "gericht" as eG {
+  *gericht_id : number <<generated>>
+  --
+  *kategorie_id : number <<FK>>
+  name : text
+  bild : text
+  beschreibung : text
+  preis : decimal(11,2)
+}
+
+eU ||..o{eB
+eK ||--o{ eG
+@enduml
