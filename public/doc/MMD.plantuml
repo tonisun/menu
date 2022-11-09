@@ -2,8 +2,8 @@
 @startmindmap
 <style>
 mindmapDiagram {
-  .lila {
-    BackgroundColor #e700ff
+  .grass {
+    BackgroundColor #09d740
   }
   .blau {
     BackgroundColor #00d4ff
@@ -15,20 +15,43 @@ mindmapDiagram {
     BackgroundColor lightgreen
   }
   .rose {
-    BackgroundColor #FFBBCC
+    BackgroundColor #f585fa
   }
-  .your_style_name {
-    BackgroundColor lightblue
+  .gelb {
+    BackgroundColor #fff800
   }
+  .bege {
+    BackgroundColor #f99c8c
+  }
+
 }
 </style>
-+ Symfony menu App
++ menu App<<gelb>>
 --_ 1. mkdir menu 
 -- 2. composer create-project symfony/skeleton:"^5.4" menu <<green>> 
 --_ 3. cd menu <<green>>
--- composer req make\ncomposer req twig\ncomposer req doctrine/annotations\ncomposer req doctrine\ncomposer req symfony/console\ncomposer req asset\ncomposer req form<<rose>>
+-- composer req make\ncomposer req twig\ncomposer req doctrine/annotations\ncomposer req doctrine\ncomposer req symfony/console\ncomposer req asset\ncomposer req form\ncomposer req symfony/mine\nconposer req security\ncomposer req profiler\ncomposer req mailer<<rose>>
 -- symfony server:ca:install\nsymfony server:start -d\nsymfony server:stop\nsymfony server:status<<orange>>
 --- symfony proxy:start\nsymfony proxy:domain.attach<<orange>>
 -- .env<<blau>>
-++ php bin/console <<your_style_name>>
+---_ APP_ENV=dev
+---_ APP_SECRET=
+---_ DATABASE_URL="postgresql://user:password@\n127.0.0.1:5433/menu?serverVersion=14&charset=utf8"
+---_ MAILER_DSN=smtp://user:password@\nsmtp.mailtrap.io:2525?encryption=tls&auth_mode=login
+
+++ php bin/console doctrine<<bege>>
++++_ :database:create
++++_ :schema:update --force
++++_ :schema:update --dump-sql
+
+++ php bin/console make<<bege>>
++++_ :entity [<Name>Entity]
++++_ :entity --regenerate
++++_ :migration
++++_ :controller [<Name>Controller]
++++_ :form
+
+++ php bin/console debug <<bege>>
++++_ :router
+
 @endmindmap
