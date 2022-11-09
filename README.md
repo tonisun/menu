@@ -1,10 +1,21 @@
 # Menu 
-is Symfony 5.4. App Project from https://www.udemy.com/course/symfony-grundkurs/
+is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/symfony-grundkurs/
 ![](public/img/logo.png)
 * composer
 * Symfony 5.4. is a LTS version
 * PostgreSQL 14 Server / pgAdmin4
-* VSCodium or VSCode or NetBeans (to generate getter and setter methods)
+* VSCodium or VSCode or NetBeans (to generate getter and setter methods for the entities)
+
+### 0. Clairvoyance about the Project ```Menu-Mudra```
+
+* Each table has a chip programmed to say "I am table number ???".
+* Each table has a built-in tablet or the customer uses his own smart phone to set the orders.
+* Every customer at birth gets bio chips in their fingertips.
+* The thumb chip can communicate with the other four finger chips and use (start) different services by contact.
+* Both hands can also be joined together in different 399 mudras.
+* The services can be extended over the whole body points
+![Hand surface anatomy](https://cdn.vectorstock.com/i/1000x1000/55/32/hand-surface-anatomy-vector-4125532.webp)
+
 
 ### 1. Project start <a href="https://symfony.com/doc/current/setup.html#creating-symfony-applications"><img src="public/img/globe.png" alt="kugel" width="64"></a>
 ```bash
