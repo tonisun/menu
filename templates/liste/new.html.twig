@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Liste{% endblock %}
+
+{% block body %}
+<!-- Flash Message -->
+{% for message in app.flashes('Erfolg') %}
+    <div class="alert alert-success">
+        <h4>{{ message }}</h4>
+    </div>
+{% endfor %}
+
+<br>
+<div class="container">
+<h2>Neuer Kunden Eintrag</h2>
+<br>
+    
+
+    {{ include('liste/_form.html.twig') }}
+
+    <a href="{{ path('app_liste_index') }}">back to list</a>
+</div>
+{% endblock %}

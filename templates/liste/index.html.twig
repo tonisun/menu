@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste index{% endblock %}
+
+{% block body %}
+
+<!-- Flash Message -->
+{% for message in app.flashes('Erfolg') %}
+    <div class="alert alert-success">
+        <h4>{{ message }}</h4>
+    </div>
+{% endfor %}
+
+<br>
+<div class="container">
+<h2>GesteBuch</h2>
+<br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Strasse</th>
+                <th>Plz</th>
+                <th>Stadt</th>
+                <th>Telefon</th>
+                <th>Email</th>
+                <th>Geburtsdatum</th>
+                <th>GastEintrag</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for liste in listes %}
+            <tr>
+                <td>{{ liste.id }}</td>
+                <td>{{ liste.name }}</td>
+                <td>{{ liste.strasse }}</td>
+                <td>{{ liste.plz }}</td>
+                <td>{{ liste.stadt }}</td>
+                <td>{{ liste.telefon }}</td>
+                <td>{{ liste.email }}</td>
+                <td>{{ liste.geburtsdatum }}</td>
+                <td>{{ liste.gastEintrag }}</td>
+                <td>
+                    <a href="{{ path('app_liste_show', {'id': liste.id}) }}">show</a>
+                    <a href="{{ path('app_liste_edit', {'id': liste.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="10">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_liste_new') }}">Neuer Antrag</a>
+    </div>
+{% endblock %}
