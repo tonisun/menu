@@ -13,12 +13,29 @@ composer create-project symfony/skeleton:"^5.4" menu
 cd menu  
 ```
 
-### 2. Install make <a href="https://symfony.com/bundles/SymfonyMakerBundle/current/index.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
-Symfony Maker helps you create empty commands, entity, controllers, form classes, tests and more so you can forget about writing boilerplate code.
+### 2. Install ```make``` <a href="https://symfony.com/bundles/SymfonyMakerBundle/current/index.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
+
+Symfony Maker helps you create **empty commands**, **entities**, **controllers**, **form classes**, **tests** and more so you can forget about writing boilerplate code.
+
 ```bash
 composer req make
 ```
-* lists all commands
+
+* lists all commands from make
+
 ```bash
 php bin/console list make
 ```
+
+* Check the names of some commands out with the --help option:
+
+```bash
+php bin/console make:controller --help
+```
+
+* Creating your Own Makers (boilerplate code generators)
+Create a class that ```extends AbstractMaker``` in your **src/Maker/** directory
+
+### . Install ```twig``` <a href="https://symfony.com/doc/current/reference/twig_reference.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
+
+Twig is the template engine used in Symfony applications. 
