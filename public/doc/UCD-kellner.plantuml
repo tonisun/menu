@@ -1,0 +1,7 @@
+@startuml
+actor Waiter
+Waiter --> (change order status) : normal
+Waiter --> (read the order supplement email) #line:red;line.bold;text:red  : red bold
+Waiter --> (delete orders) #green;line.dashed;text:green : green dashed 
+Waiter --> (bar3) #blue;line.dotted;text:blue   : blue dotted
+@enduml

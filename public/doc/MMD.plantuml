@@ -1,0 +1,34 @@
+	
+@startmindmap
+<style>
+mindmapDiagram {
+  .lila {
+    BackgroundColor #e700ff
+  }
+  .blau {
+    BackgroundColor #00d4ff
+  }
+  .orange {
+    BackgroundColor orange
+  }
+  .green {
+    BackgroundColor lightgreen
+  }
+  .rose {
+    BackgroundColor #FFBBCC
+  }
+  .your_style_name {
+    BackgroundColor lightblue
+  }
+}
+</style>
++ Symfony menu App
+--_ 1. mkdir menu 
+-- 2. composer create-project symfony/skeleton:"^5.4" menu <<green>> 
+--_ 3. cd menu <<green>>
+-- composer req make\ncomposer req twig\ncomposer req doctrine/annotations\ncomposer req doctrine\ncomposer req symfony/console\ncomposer req asset\composer req form<<rose>>
+-- symfony server:ca:install\nsymfony server:start -d\nsymfony server:stop\nsymfony server:status<<orange>>
+--- symfony proxy:start\nsymfony proxy:domain.attach<<orange>>
+-- .env<<blau>>
+++ php bin/console <<your_style_name>>
+@endmindmap

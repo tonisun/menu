@@ -1,0 +1,7 @@
+@startuml
+actor Customer
+Customer --> (order dish) : normal
+Customer --> (choose category) #line:red;line.bold;text:red  : red bold
+Customer --> (cancel order if status == open) #green;line.dashed;text:green : green dashed 
+Customer --> (complete the order by sending an e-mail to the waiter) #blue;line.dotted;text:blue   : blue dotted
+@enduml

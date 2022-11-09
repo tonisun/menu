@@ -6,6 +6,19 @@ is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/sym
 * PostgreSQL 14 Server / pgAdmin4
 * VSCodium or VSCode or NetBeans (to generate getter and setter methods for the entities)
 
+### -3. Mind-Mapper-Diagrams - ```MMD```
+
+#### ```Symfony Menu App```
+![](/out/public/doc/MMD/MMD.svg)
+
+### -2. Use-Case-Diagrams - ```UCD```
+
+#### ```Customer```
+![Customer UCD](out/public/doc/UCD-customer/UCD-customer.svg)
+
+#### ```Waiter```
+![Waiter UCD](out/public/doc/UCD-kellner/UCD-kellner.svg)
+
 ### -1. Entity-Relationship-Diagram - ```ERD```
 
 ![Menu ERD](out/public/doc/ERD/ERD.svg)
