@@ -45,7 +45,7 @@ composer req twig
 ```
 
 
-### 4. Install ```doctrine/annotations``` <a href="https://www.doctrine-project.org/projects/doctrine-annotations/en/latest/index.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
+### 4. Install ```doctrine/annotations``` <a href="https://www.doctrine-project.org/projects/annotations.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
 
 Doctrine ORM (Object Relational Mapper) and Doctriene DBAL (Database Abstraction Layer) are the core projects by https://www.doctrine-project.org/
 
