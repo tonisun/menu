@@ -6,6 +6,8 @@ is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/sym
 * PostgreSQL 14 Server / pgAdmin4
 * VSCodium or VSCode or NetBeans (to generate getter and setter methods for the entities)
 
+### -1. Entity-Relationship-Diagram - ```ERD```
+
 ### 0. Clairvoyance about the Project ```Menu-Mudra```
 
 * Each table has a chip programmed to say "I am table number xxx".
@@ -71,17 +73,10 @@ composer req doctrine/annotations
 php bin/console debug:router
 ```
 
-### 4. Install ```doctrine``` <a href="https://www.doctrine-project.org/projects/annotations.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
+### 5. Install ```doctrine``` <a href="https://www.doctrine-project.org/projects/annotations.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
 - Doctrine is a collection of projects built for PHP. Each project can be used standalone and installed with Composer.
 - Doctrine ORM (Object Relational Mapper) and Doctriene DBAL (Database Abstraction Layer) are the core projects by https://www.doctrine-project.org/
-- Docblock Annotations Parser allows to implement custom annotation functionality for PHP classes and functions.
 
 ```bash
-composer req doctrine/annotations
-```
-
-* Debugging Routes
-
-```bash
-php bin/console debug:router
+composer req doctrine
 ```
