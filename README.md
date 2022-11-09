@@ -8,10 +8,10 @@ is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/sym
 
 ### 0. Clairvoyance about the Project ```Menu-Mudra```
 
-* Each table has a chip programmed to say "I am table number ???".
+* Each table has a chip programmed to say "I am table number xxx".
 * Each table has a built-in tablet or the customer uses his own smart phone to set the orders.
-* Every customer at birth gets bio chips in their fingertips.
-* The thumb chip can communicate with the other four finger chips and use (start) different services by contact.
+* Every customer at birth gets bio chips in their fingertips (distal phalanx), fingermiddle (middle phalanx) and fingerroot (proximal phalanx)...
+* The thumb chip can communicate with the other four finger chips and use (or start) different services by contact.
 * Both hands can also be joined together in different 399 mudras.
 * The services can be extended over the whole body points
 ![Hand surface anatomy](https://cdn.vectorstock.com/i/1000x1000/55/32/hand-surface-anatomy-vector-4125532.webp)
