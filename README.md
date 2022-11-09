@@ -36,6 +36,6 @@ php bin/console make:controller --help
 * Creating your Own Makers (boilerplate code generators)
 Create a class that ```extends AbstractMaker``` in your **src/Maker/** directory
 
-### . Install ```twig``` <a href="https://symfony.com/doc/current/reference/twig_reference.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
+### 3. Install ```twig``` <a href="https://symfony.com/doc/current/reference/twig_reference.html"><img src="public/img/globe.png" alt="kugel" width="64"></a>
 
 Twig is the template engine used in Symfony applications. 
