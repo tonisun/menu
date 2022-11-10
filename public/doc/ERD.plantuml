@@ -16,6 +16,20 @@ entity "user" as eU {
   password: md5(text)
 }
 
+entity "liste" as eL {
+  *list_id: number <<generated>>
+  --
+  *user_id : number <<FK>>
+  name : text
+  strasse : text
+  plz : text
+  stadt : text
+  telefon : text
+  email : text
+  geburtsdatum : date
+  gast_eintrag
+}
+
 entity "bestellung" as eB {
   *bestellung_id: number <<generated>>
   --
@@ -42,8 +56,9 @@ entity "gericht" as eG {
   bild : text
   beschreibung : text
   preis : decimal(11,2)
-}
+} 
 
+eU ||..o{eL
 eU ||..o{eB
 eK ||--o{ eG
 @enduml
