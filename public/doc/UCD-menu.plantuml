@@ -3,7 +3,7 @@
 ' !theme _none_
 ' !theme plain
 
-package "My Restaurant" {
+package "My Restaurant - menu" {
     package professionals {
         actor Chef as ch
         actor "Food Criticer" as fc

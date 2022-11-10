@@ -12,7 +12,7 @@ is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/sym
 ![](/out/public/doc/MMD/MMD.svg)
 
 ### -2. Use-Case-Diagrams - ```UCD```
-#### ```My Restaurant ... cable clutter```
+#### ```My Restaurant - menu ... cable clutter```
 ![Customer UCD](out/public/doc/UCD-menu/UCD-menu.svg)
 #### Actor ```Customer``` and his use cases
 * Customer is the ```App/Entity/User```

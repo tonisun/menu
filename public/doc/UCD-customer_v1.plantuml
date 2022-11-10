@@ -1,5 +1,5 @@
 @startuml
-package "My Restaurant" {
+package "My Restaurant - menu" {
     
     actor User as u #green;line:green;text:green;
 
