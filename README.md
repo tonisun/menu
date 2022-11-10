@@ -15,7 +15,7 @@ is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/sym
 #### ```My Restaurant - menu ... cable clutter```
 ![Customer UCD](out/public/doc/UCD-menu/UCD-menu.svg)
 #### Actor ```Customer``` and his use cases
-* Customer is the ```App/Entity/User```
+* In Version 0.1.0 Customer is the ```App/Entity/User```
 ![Customer UCD](out/public/doc/UCD-customer_v1/UCD-customer_v1.svg)
 
 #### ```Waiter```
