@@ -1,0 +1,51 @@
+@startuml
+
+' !theme _none_
+' !theme plain
+
+package "My Restaurant" {
+    package professionals {
+        actor Chef as ch
+        actor "Food Criticer" as fc
+    }
+    package employees {
+        actor Admin as a
+        actor Waiter as w
+    }
+    package customer {
+        actor Customer as c #green;line:green;text:green 
+    }
+
+    usecase "Review" as UC0
+    usecase "Mark dishes" as UC1
+    usecase "Manages accounts" as UC2
+    usecase "Write guestbook entries" as UC3
+    usecase "Sees the guestbook entries" as UC4
+
+    usecase "sees the menu" as UC5
+
+
+}
+
+
+c --> UC5
+w --> UC5
+ch --> UC5
+a --> UC5
+fc --> UC5
+
+c --> UC4
+w --> UC4
+fc --> UC4
+a --> UC4
+ch --> UC4
+
+c --> UC3
+fc --> UC3
+
+a --> UC2
+
+fc --> UC1
+
+fc --> UC0
+@enduml

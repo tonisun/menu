@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="419px" preserveAspectRatio="none" style="width:1044px;height:419px;background:#FFFFFF;" version="1.1" viewBox="0 0 1044 419" width="1044px" zoomAndPan="magnify"><defs/><g><!--MD5=[2b721f433180eef93c3f34c3fd72b39d]
+cluster My Restaurant--><g id="cluster_My Restaurant"><path d="M8.5,6 L110.5,6 A3.75,3.75 0 0 1 113,8.5 L120,29.6094 L1034.5,29.6094 A2.5,2.5 0 0 1 1037,32.1094 L1037,409.5 A2.5,2.5 0 0 1 1034.5,412 L8.5,412 A2.5,2.5 0 0 1 6,409.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="120" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101" x="10" y="22.5332">My Restaurant</text></g><!--MD5=[8e8c41c1ce34813b33736b9e139881eb]
+cluster professionals--><g id="cluster_professionals"><path d="M103.5,144 L200.5,144 A3.75,3.75 0 0 1 203,146.5 L210,167.6094 L352.5,167.6094 A2.5,2.5 0 0 1 355,170.1094 L355,271.5 A2.5,2.5 0 0 1 352.5,274 L103.5,274 A2.5,2.5 0 0 1 101,271.5 L101,146.5 A2.5,2.5 0 0 1 103.5,144 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="101" x2="210" y1="167.6094" y2="167.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="105" y="160.5332">professionals</text></g><!--MD5=[27fbeb839ece46b3aa7371a781596bb6]
+cluster employees--><g id="cluster_employees"><path d="M381.5,144 L458.5,144 A3.75,3.75 0 0 1 461,146.5 L468,167.6094 L468.5,167.6094 A2.5,2.5 0 0 1 471,170.1094 L471,271.5 A2.5,2.5 0 0 1 468.5,274 L381.5,274 A2.5,2.5 0 0 1 379,271.5 L379,146.5 A2.5,2.5 0 0 1 381.5,144 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="379" x2="468" y1="167.6094" y2="167.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="383" y="160.5332">employees</text></g><!--MD5=[b5e3361e2a5f8dd2cdf2e5f0d87d6906]
+cluster customer--><g id="cluster_customer"><path d="M497.5,144 L564.5,144 A3.75,3.75 0 0 1 567,146.5 L574,167.6094 L586.5,167.6094 A2.5,2.5 0 0 1 589,170.1094 L589,271.5 A2.5,2.5 0 0 1 586.5,274 L497.5,274 A2.5,2.5 0 0 1 495,271.5 L495,146.5 A2.5,2.5 0 0 1 497.5,144 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="495" x2="574" y1="167.6094" y2="167.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="499" y="160.5332">customer</text></g><!--MD5=[7d46d6cd919e02e6168a09ad91eae8b4]
+entity u--><g id="elem_u"><ellipse cx="324" cy="50.5" fill="#008000" rx="8" ry="8" style="stroke:#008000;stroke-width:0.5;"/><path d="M324,58.5 L324,85.5 M311,66.5 L337,66.5 M324,85.5 L311,100.5 M324,85.5 L337,100.5 " fill="none" style="stroke:#008000;stroke-width:0.5;"/><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="309.5" y="116.5332">User</text></g><g id="elem_n1"><path d="M133,68 L133,94.3516 L235,94.3516 L235,78 L225,68 L133,68 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M225,68 L225,78 L235,78 L225,68 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="139" y="86.4951">Version 0.1.0.</text></g><g id="elem_UC0"><ellipse cx="79.2132" cy="357.0613" fill="#F1F1F1" rx="57.2132" ry="15.5613" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="44.2132" y="361.5779">order dish</text></g><g id="elem_UC1"><ellipse cx="283.7614" cy="356.8523" fill="#F1F1F1" rx="112.2614" ry="24.8523" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="189.7614" y="360.5808">cancel order if status == open</text></g><g id="elem_UC2"><ellipse cx="613.9981" cy="356.7996" fill="#F1F1F1" rx="181.9981" ry="38.7996" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="335" x="446.4981" y="360.5281">complete the order by sending an e-mail to the waiter</text></g><g id="elem_UC3"><ellipse cx="926.1904" cy="356.9381" fill="#F1F1F1" rx="95.1904" ry="21.4381" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="851.1904" y="360.6666">Write guestbook entries</text></g><!--MD5=[6377be883f12643b62e189b60fe92e84]
+entity ch--><g id="elem_ch"><ellipse cx="324" cy="188.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M324,196.5 L324,223.5 M311,204.5 L337,204.5 M324,223.5 L311,238.5 M324,223.5 L337,238.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="309" y="254.5332">Chef</text></g><!--MD5=[f83ae91a690dfc657e1c5fbbd818f13d]
+entity a--><g id="elem_a"><ellipse cx="254" cy="188.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M254,196.5 L254,223.5 M241,204.5 L267,204.5 M254,223.5 L241,238.5 M254,223.5 L267,238.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="234.5" y="254.5332">Admin</text></g><!--MD5=[db756db308cf6ff8cfeeb51570136b75]
+entity fc--><g id="elem_fc"><ellipse cx="158" cy="188.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M158,196.5 L158,223.5 M145,204.5 L171,204.5 M158,223.5 L145,238.5 M158,223.5 L171,238.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="117" y="254.5332">Food Criticer</text></g><!--MD5=[5b15d04c6eb656314d90c943872e8a65]
+entity w--><g id="elem_w"><ellipse cx="416" cy="188.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M416,196.5 L416,223.5 M403,204.5 L429,204.5 M416,223.5 L403,238.5 M416,223.5 L429,238.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="395.5" y="254.5332">Waiter</text></g><!--MD5=[8e9b2d9d80e066cced8e5d90e9bdea61]
+entity c--><g id="elem_c"><ellipse cx="542" cy="188.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M542,196.5 L542,223.5 M529,204.5 L555,204.5 M542,223.5 L529,238.5 M542,223.5 L555,238.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="511.5" y="254.5332">Customer</text></g><!--MD5=[06a832829b5b155175aa1c2269fcd6ac]
+reverse link u to c--><g id="link_u_c"><path d="M358,92.58 C384.98,101.82 423,116.75 453,136 C474.22,149.61 495.1,168.48 511.3,184.69 " fill="none" id="u-backto-c" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="355.59,99.16,338.73,86.31,359.92,85.85,355.59,99.16" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e559cd32e29158da16669ed931a236be]
+reverse link u to w--><g id="link_u_w"><path d="M349.95,120.35 C364.31,141.58 381.91,167.61 395.33,187.45 " fill="none" id="u-backto-w" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="343.99,124.04,338.58,103.55,355.58,116.19,343.99,124.04" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[06ed1f97a038065ba63baeec153d63f2]
+reverse link u to a--><g id="link_u_a"><path d="M299.23,122.82 C296.72,127.23 294.27,131.69 292,136 C284.62,150.02 277.15,165.75 270.81,179.64 " fill="none" id="u-backto-a" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="293.3,119.08,309.46,105.36,305.38,126.16,293.3,119.08" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[58b8bb65de01276a9c7d4464a1da77bf]
+reverse link u to ch--><g id="link_u_ch"><path d="M324,140.37 C324,153.63 324,167.39 324,179.57 " fill="none" id="u-backto-ch" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="317,140.25,324,120.25,331,140.25,317,140.25" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[07daa2a0b82632b56f27dd9b13b8d022]
+reverse link u to fc--><g id="link_u_fc"><path d="M291.9,99.82 C279.81,106.37 265.87,113.71 253,120 C237.27,127.69 230.59,124.95 217,136 C202.17,148.06 189.27,164.72 179.35,179.87 " fill="none" id="u-backto-fc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="288.58,93.66,309.48,90.18,295.31,105.94,288.58,93.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cd5ffc126cc0f32e10a583baf9334a09]
+link c to UC0--><g id="link_c_UC0"><path d="M511.21,247.09 C494.99,259.83 474.12,273.95 453,282 C327.93,329.67 282.09,279.16 154,318 C136.93,323.18 119.07,332.07 105.06,339.95 " fill="none" id="c-to-UC0" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="100.47,342.58,110.2666,341.5669,104.8059,340.0901,106.2827,334.6294,100.47,342.58" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[231f635dede5940d51ca320d2782ce6c]
+link c to UC1--><g id="link_c_UC1"><path d="M511.26,243.65 C494.54,255.93 473.21,270.68 453,282 C417.98,301.62 376.74,319.76 343.76,333.18 " fill="none" id="c-to-UC1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="338.96,335.12,348.8028,335.4653,343.5974,333.2508,345.812,328.0454,338.96,335.12" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2110900e7b9f8bd9c77dd8810158f208]
+link c to UC2--><g id="link_c_UC2"><path d="M562.25,258.25 C571.37,275.48 582.18,295.9 591.55,313.6 " fill="none" id="c-to-UC2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="593.9,318.04,593.2139,308.2151,591.556,313.6235,586.1475,311.9655,593.9,318.04" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d0799cae5d9a295fb7796d4df448133f]
+link c to UC3--><g id="link_c_UC3"><path d="M572.78,230.9 C637.86,253.95 790.18,307.9 871.91,336.84 " fill="none" id="c-to-UC3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="876.71,338.54,869.564,331.7625,871.9974,336.8692,866.8907,339.3026,876.71,338.54" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a983b46880c5886760e1d316261d1945]
+@startuml
+package "My Restaurant" {
+    
+    actor User as u #green;line:green;text:green;
+
+    package professionals {
+        actor Chef as ch
+        actor Admin as a
+        actor "Food Criticer" as fc
+    }
+    package employees {
+        
+        actor Waiter as w
+    }
+    package customer {
+        actor Customer as c  
+    }
+
+    note "Version 0.1.0." as n1 
+
+    u <|- - c
+    u <|- - w
+    u <|- - a
+    u <|- - ch
+    u <|- - fc
+
+    usecase "order dish" as UC0
+    usecase "cancel order if status == open" as UC1
+    usecase "complete the order by sending an e-mail to the waiter" as UC2
+    usecase "Write guestbook entries" as UC3
+
+    c - -> UC0
+    c - -> UC1
+    c - -> UC2
+    c - -> UC3
+}
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

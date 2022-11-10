@@ -12,9 +12,11 @@ is Symfony 5.4. App Project started bei me from https://www.udemy.com/course/sym
 ![](/out/public/doc/MMD/MMD.svg)
 
 ### -2. Use-Case-Diagrams - ```UCD```
-
-#### ```Customer```
-![Customer UCD](out/public/doc/UCD-customer/UCD-customer.svg)
+#### ```My Restaurant ... cable clutter```
+![Customer UCD](out/public/doc/UCD-menu/UCD-menu.svg)
+#### Actor ```Customer``` and his use cases
+* Customer is the ```App/Entity/User```
+![Customer UCD](out/public/doc/UCD-customer_v1/UCD-customer_v1.svg)
 
 #### ```Waiter```
 ![Waiter UCD](out/public/doc/UCD-kellner/UCD-kellner.svg)
