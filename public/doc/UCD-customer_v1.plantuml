@@ -1,7 +1,7 @@
 @startuml
 package "My Restaurant - menu" {
     
-    actor User as u #green;line:green;text:green;
+    actor User as u #palegreen;line:black;text:green;
 
     package professionals {
         actor Chef as ch
@@ -24,10 +24,10 @@ package "My Restaurant - menu" {
     u <|-- ch
     u <|-- fc
 
-    usecase "Order dish" as UC0
-    usecase "Cancel order if status == open" as UC1
-    usecase "Complete the order by sending an e-mail to the waiter" as UC2
-    usecase "Write guestbook entries" as UC3
+    usecase "Order dish" as UC0 #palegreen;line:black;text:black;
+    usecase "Cancel order if status == open" as UC1 #palegreen;line:black;text:black;
+    usecase "Complete the order by sending an e-mail to the waiter" as UC2 #palegreen;line:black;text:black;
+    usecase "Write guestbook entries" as UC3 #palegreen;line:black;text:black;
 
     c --> UC0
     c --> UC1
