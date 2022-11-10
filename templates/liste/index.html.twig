@@ -13,7 +13,7 @@
 
 <br>
 <div class="container">
-<h2>GesteBuch</h2>
+<h2>GesteBuch Einträge</h2>
 <br>
     <table class="table">
         <thead>
@@ -43,18 +43,18 @@
                 <td>{{ liste.geburtsdatum }}</td>
                 <td>{{ liste.gastEintrag }}</td>
                 <td>
-                    <a href="{{ path('app_liste_show', {'id': liste.id}) }}">show</a>
-                    <a href="{{ path('app_liste_edit', {'id': liste.id}) }}">edit</a>
+                    <a href="{{ path('liste.show', {'id': liste.id}) }}">zeigen</a>
+                    <a href="{{ path('liste.edit', {'id': liste.id}) }}">ändern</a>
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="10">no records found</td>
+                <td colspan="10">Keine Einträge gefunden!</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-    <a href="{{ path('app_liste_new') }}">Neuer Antrag</a>
+    <a href="{{ path('liste.new') }}">Neuer Eintrag</a>
     </div>
 {% endblock %}
