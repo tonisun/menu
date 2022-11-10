@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
- * CRUD Methods for Entity List
+ * CRUD Methods for Entity Liste
  */
 #[Route('/liste', name: 'liste.')]
 class ListeController extends AbstractController
