@@ -29,10 +29,15 @@ package "My Restaurant - menu" {
     usecase "Complete the order by sending an e-mail to the waiter" as UC2 #palegreen;line:black;text:black;
     usecase "Write guestbook entries" as UC3 #palegreen;line:black;text:black;
 
-    c --> UC0
-    c --> UC1
-    c --> UC2
-    c --> UC3
+    c --> UC0 #green;line.dashed;
+    c --> UC1 #green;line.dashed;
+    c --> UC2 #green;line.dashed;
+    c --> UC3 #green;line.dashed;
+
+    u --> UC0
+    u --> UC1 
+    u --> UC2 
+    u --> UC3 
 }
 
 
