@@ -10,9 +10,16 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * CRUD Methods for Entity List
+ */
 #[Route('/liste', name: 'liste.')]
 class ListeController extends AbstractController
 {
+
+    /**
+     * Show all Liste items
+     */
     #[Route('/', name: 'index', methods: ['GET'])]
     public function index(ListeRepository $listeRepository): Response
     {
@@ -21,6 +28,9 @@ class ListeController extends AbstractController
         ]);
     }
 
+    /**
+     * Create a new item in the Liste
+     */
     #[Route('/new', name: 'new', methods: ['GET', 'POST'])]
     public function new(Request $request, ListeRepository $listeRepository): Response
     {
@@ -40,6 +50,9 @@ class ListeController extends AbstractController
         ]);
     }
 
+    /**
+     * Show by Id
+     */
     #[Route('/{id}', name: 'show', methods: ['GET'])]
     public function show(Liste $liste): Response
     {
@@ -48,6 +61,9 @@ class ListeController extends AbstractController
         ]);
     }
 
+    /**
+     * Edit by Id
+     */
     #[Route('/{id}/edit', name: 'edit', methods: ['GET', 'POST'])]
     public function edit(Request $request, Liste $liste, ListeRepository $listeRepository): Response
     {
@@ -66,6 +82,9 @@ class ListeController extends AbstractController
         ]);
     }
 
+    /**
+     * Delete by Id
+     */
     #[Route('/{id}', name: 'delete', methods: ['POST'])]
     public function delete(Request $request, Liste $liste, ListeRepository $listeRepository): Response
     {
