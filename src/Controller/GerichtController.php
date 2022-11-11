@@ -92,14 +92,14 @@ class GerichtController extends AbstractController
         ]);
     }
 
-    #[Route('/preis/{id}', name: 'preis')]
-    public function preis($id, GerichtRepository $gr)
+    #[Route('/preis', name: 'preis')]
+    public function preis(GerichtRepository $gr)
     {
-        $gerichte = $gr->under5euro($id);
-        dump($gerichte);
+        $gerichte = $gr->under5euro();
+        //dump($gerichte);
         // Response
-        //return $this->render('gericht/anzeigen.html.twig', [
-        //  'gericht' => 
-        //]);
+        return $this->render('gericht/preis.html.twig', [
+            'gerichte' => $gerichte,
+        ]);
     }
 }

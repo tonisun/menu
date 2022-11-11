@@ -16,20 +16,29 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class GerichtRepository extends ServiceEntityRepository
 {
+    /**
+     * 
+     */
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, Gericht::class);
     }
 
-    public function under5euro(int $id)
+    /**
+     * 
+     */
+    public function under5euro()
     {
         $gb = $this->createQueryBuilder('g');
-        $gb->select('g.name, g.preis')
+        $gb->select('g.id, g.name, g.preis')
             ->where('g.preis <= 5');
 
         return $gb->getQuery()->getResult();
     }
 
+    /**
+     * 
+     */
     public function save(Gericht $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);
@@ -39,6 +48,9 @@ class GerichtRepository extends ServiceEntityRepository
         }
     }
 
+    /**
+     * 
+     */
     public function remove(Gericht $entity, bool $flush = false): void
     {
         $this->getEntityManager()->remove($entity);
