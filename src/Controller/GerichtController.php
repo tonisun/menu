@@ -11,23 +11,26 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
 #[Route('/gericht', name: 'gericht.')]
-class GerichtController extends AbstractController {
+class GerichtController extends AbstractController
+{
 
     #[Route('/', name: 'bearbeiten')]
-    public function index(GerichtRepository $gerichtRepository): Response {
+    public function index(GerichtRepository $gerichtRepository): Response
+    {
 
         $alleGerichte = $gerichtRepository->findAll();
 
         return $this->render('gericht/index.html.twig', [
-            'allegerichte' => $alleGerichte ,
+            'allegerichte' => $alleGerichte,
         ]);
     }
 
 
     #[Route('/create', name: 'create')]
-    public function createGericht(Request $request): Response {
+    public function createGericht(Request $request): Response
+    {
         $gericht = new Gericht();
-       
+
         // Gericht aus den Form generieren
         $form = $this->createForm(GerichtType::class, $gericht);
 
@@ -35,13 +38,13 @@ class GerichtController extends AbstractController {
         $form->handleRequest($request);
 
         // prüfen ob submit button gedruckt ist
-        if ( $form->isSubmitted() ) {
+        if ($form->isSubmitted()) {
             // EntityManager
             $entityManager = $this->getDoctrine()->getManager();
             $bild = $request->files->get('gericht')['bild'];
 
             if ($bild) {
-                $dateiname = md5(uniqid()). '.' .$bild->guessClientExtension();
+                $dateiname = md5(uniqid()) . '.' . $bild->guessClientExtension();
             }
 
             $bild->move(
@@ -59,13 +62,14 @@ class GerichtController extends AbstractController {
 
         // Response
         return $this->render('gericht/create.html.twig', [
-        'createGerichtForm' => $form->createView() ,
-    ]);
+            'createGerichtForm' => $form->createView(),
+        ]);
     }
 
 
     #[Route('/delete/{id}', name: 'delete')]
-    public function delete ($id, GerichtRepository $gerichtRepository) {
+    public function delete($id, GerichtRepository $gerichtRepository)
+    {
         $entityManager = $this->getDoctrine()->getManager();
         $gericht = $gerichtRepository->find($id);
         $entityManager->remove($gericht);
@@ -79,11 +83,23 @@ class GerichtController extends AbstractController {
 
 
     #[Route('/anzeigen/{id}', name: 'anzeigen')]
-    public function bildAnzeigen( Gericht $gericht) {
+    public function bildAnzeigen(Gericht $gericht)
+    {
         #dump($gericht);
         // Response
         return $this->render('gericht/anzeigen.html.twig', [
-            'gericht' => $gericht ,
+            'gericht' => $gericht,
         ]);
+    }
+
+    #[Route('/preis/{id}', name: 'preis')]
+    public function preis($id, GerichtRepository $gr)
+    {
+        $gerichte = $gr->under5euro($id);
+        dump($gerichte);
+        // Response
+        //return $this->render('gericht/anzeigen.html.twig', [
+        //  'gericht' => 
+        //]);
     }
 }
